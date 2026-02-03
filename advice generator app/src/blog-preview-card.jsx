@@ -26,9 +26,9 @@ export default function blogPreviewCard() {
               These languages are the backbone of every website, defining
               structure, content, and presentation.
             </p>
-            <div>
-              <img src={ImageAvatar} alt="Image of greg hooper" />
-              <p className="font-extrabold">Greg Hooper</p>
+            <div className="flex items-center mt-6">
+              <img src={ImageAvatar} alt="Image of greg hooper" className="mr-3" />
+              <p className="font-black ">Greg Hooper</p>
             </div>
           </div>
         </main>
