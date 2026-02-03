@@ -1,4 +1,5 @@
 import IllustrationArticle from "./assets/illustration-article.svg";
+import ImageAvatar from "./assets/image-avatar.webp";
 
 export default function blogPreviewCard() {
   return (
@@ -23,8 +24,12 @@ export default function blogPreviewCard() {
             <h3 className="text-xl font-extrabold">HTML & CSS foundations</h3>
             <p className="text-sm text-(--gray-500)">
               These languages are the backbone of every website, defining
-              structure, content, and presentation.{" "}
+              structure, content, and presentation.
             </p>
+            <div>
+              <img src={ImageAvatar} alt="Image of greg hooper" />
+              <p className="font-extrabold">Greg Hooper</p>
+            </div>
           </div>
         </main>
       </body>
