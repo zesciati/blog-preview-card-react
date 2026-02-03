@@ -7,11 +7,15 @@ export default function blogPreviewCard() {
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet"/>
         <title>Document</title>
       </head>
       <body className="bg-(--yellow) font-(family-name:--figtree)">
         <main className="flex justify-center items-center min-h-screen flex-col">
-          <div className="p-6 bg-(--white) rounded-[20px] mx-6">
+          <div className="p-6 bg-(--white) rounded-[20px] mx-6 border border-solid konten">
             <img
               src={IllustrationArticle}
               alt="illustration-article"
